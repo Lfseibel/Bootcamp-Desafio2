@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: rgba(230, 230, 230, 0.517);
+}
+
+.principal {
+  display: flex;
+  justify-content: center;
+  max-width: 93.5rem;
+  margin-top: 10rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.semconta {
+  font-size: 1.8rem;
+}
+
+.bloco {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5rem 5rem 2.5rem 5rem;
+  border: 1px solid rgb(210, 210, 210);
+  background-color: white;
+}
+
+.pad {
+  padding: 2.5rem 5rem 2.5rem 5rem;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.botao-entrar {
+  display: inline;
+  padding: 7px;
+  background-color: #9dd8ff;
+  color: #f7f7f7;
+  border: none;
+  font-size: 1.8rem;
+  min-width: 300px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.botao-entrar:hover,
+.botao-entrar:active {
+  background-color: #3ab0ff;
+}
+
+.icone_botao {
+  max-width: 150px;
+  margin-right: 1rem;
+}
+
+.texto {
+  font-size: 1.6rem;
+}
+
+.cadastro {
+  text-decoration: none;
+  color: #2f8fcf;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.entrar {
+  text-decoration: none;
+  color: #4267b2;
+  font-size: 1.8rem;
+}
+
+.botao-baixar {
+  cursor: pointer;
+  border: none;
+}
+
+.fill {
+  border: 1px solid rgb(210, 210, 210);
+  background-color: rgba(235, 235, 235, 0.517);
+  min-width: 300px;
+  font-size: 1.2rem;
+  border-radius: 3px;
+  margin-bottom: 6px;
+  padding: 1rem;
+}
+
+.divisao {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 300px;
+}
+
+.iconefacebook {
+  color: #4267b2;
+  font-size: 2.4rem;
+  margin-right: 1rem;
+}
+
+.divisao p {
+  font-size: 1.4rem;
+  color: rgb(130, 130, 130);
+  text-transform: uppercase;
+}
+
+.line {
+  border: 1px solid rgb(210, 210, 210);
+  height: 1px;
+  min-width: 100px;
+}
+
+.marginbot {
+  margin-bottom: 2rem;
+}
+
+.celular {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+
+.celular img {
+  height: 60rem;
+}
+
+.esqueceu {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #222e48;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 8rem;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 1.2rem;
+}
+
+.footer-flex {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.copyright {
+  display: flex;
+}
+
+.footer-item {
+  text-decoration: none;
+  color: rgb(130, 130, 130);
+  padding: 1rem;
+}
+
+@media (max-width: 879px) {
+  .celular {
+    display: none;
+  }
+}
